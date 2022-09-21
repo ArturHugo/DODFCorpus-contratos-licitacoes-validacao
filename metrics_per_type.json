@@ -1,0 +1,235 @@
+{
+  "EXTRATO_CONTRATO": {
+    "edit_distance": { "mean": 147.86977531548175, "std": 485.75061720928346 },
+    "jaccard_index": { "mean": 0.8912163084401672, "std": 0.3041036198430798 },
+    "cos_sim_tfidf": { "mean": 0.8970431592485647, "std": 0.30206541419070465 }
+  },
+  "processo_gdf": {
+    "edit_distance": { "mean": 1.2968612191958484, "std": 4.882615658983238 },
+    "jaccard_index": { "mean": 0.9369431620358325, "std": 0.23429849925603094 },
+    "cos_sim_tfidf": { "mean": 0.9387333857139728, "std": 0.2336695737429872 }
+  },
+  "numero_contrato": {
+    "edit_distance": { "mean": 1.9859822119102906, "std": 3.255894778340361 },
+    "jaccard_index": { "mean": 0.7846096363504178, "std": 0.3472180101160544 },
+    "cos_sim_tfidf": { "mean": 0.7936016601109402, "std": 0.34502924099619364 }
+  },
+  "data_assinatura_contrato": {
+    "edit_distance": { "mean": 1.0546831955922862, "std": 3.103655922920764 },
+    "jaccard_index": { "mean": 0.897211787294432, "std": 0.30025422414294395 },
+    "cos_sim_tfidf": { "mean": 0.8969915168284384, "std": 0.30083157292902235 }
+  },
+  "orgao_contratante": {
+    "edit_distance": { "mean": 7.905360764995643, "std": 16.56709609823023 },
+    "jaccard_index": { "mean": 0.6881357689558635, "std": 0.4167303859110989 },
+    "cos_sim_tfidf": { "mean": 0.6979539680614578, "std": 0.4185843549725538 }
+  },
+  "entidade_contratada": {
+    "edit_distance": { "mean": 5.804937620804802, "std": 12.610105496356166 },
+    "jaccard_index": { "mean": 0.8117855689352546, "std": 0.3517358145255966 },
+    "cos_sim_tfidf": { "mean": 0.8286085347096663, "std": 0.3478816985518143 }
+  },
+  "cnpj_entidade_contratada": {
+    "edit_distance": { "mean": 1.0296296296296295, "std": 3.9321543884276386 },
+    "jaccard_index": { "mean": 0.9407137558280934, "std": 0.22662446873031147 },
+    "cos_sim_tfidf": { "mean": 0.9454977845530221, "std": 0.22464486027811634 }
+  },
+  "objeto_contrato": {
+    "edit_distance": { "mean": 37.91937760667283, "std": 125.30903732658713 },
+    "jaccard_index": { "mean": 0.8826657013621408, "std": 0.31274307642573623 },
+    "cos_sim_tfidf": { "mean": 0.8884027048705789, "std": 0.3134860107354674 }
+  },
+  "valor_contrato": {
+    "edit_distance": { "mean": 0.8987499999999998, "std": 2.9184087357001807 },
+    "jaccard_index": { "mean": 0.9141818314261496, "std": 0.27642668628786016 },
+    "cos_sim_tfidf": { "mean": 0.9154641634220215, "std": 0.2765884062852549 }
+  },
+  "unidade_orcamentaria": {
+    "edit_distance": { "mean": 1.067383512544803, "std": 2.677152227657362 },
+    "jaccard_index": { "mean": 0.8736631900735234, "std": 0.3025036850482216 },
+    "cos_sim_tfidf": { "mean": 0.8814999129718812, "std": 0.30072277111330165 }
+  },
+  "programa_trabalho": {
+    "edit_distance": { "mean": 2.883333333333334, "std": 5.95499638099204 },
+    "jaccard_index": { "mean": 0.8446254552391714, "std": 0.32385337297079825 },
+    "cos_sim_tfidf": { "mean": 0.8534777168072925, "std": 0.32487607873080393 }
+  },
+  "fonte_recurso": {
+    "edit_distance": { "mean": 3.8922596754057404, "std": 9.787092006257554 },
+    "jaccard_index": { "mean": 0.7034091157982348, "std": 0.426720399140948 },
+    "cos_sim_tfidf": { "mean": 0.6878693300041615, "std": 0.4378746118923653 }
+  },
+  "natureza_despesa": {
+    "edit_distance": { "mean": 0.8234929078014183, "std": 1.7318156869115082 },
+    "jaccard_index": { "mean": 0.7548398941484048, "std": 0.3905495157258652 },
+    "cos_sim_tfidf": { "mean": 0.763940822648659, "std": 0.3786874583451984 }
+  },
+  "nota_empenho": {
+    "edit_distance": { "mean": 1.1805882352941184, "std": 3.9724742023034145 },
+    "jaccard_index": { "mean": 0.8953926636023823, "std": 0.2895688249098249 },
+    "cos_sim_tfidf": { "mean": 0.8986858577498215, "std": 0.2866906837978986 }
+  },
+  "vigencia_contrato": {
+    "edit_distance": { "mean": 17.284506041222333, "std": 43.76731372765109 },
+    "jaccard_index": { "mean": 0.7775847663478885, "std": 0.3655284390605442 },
+    "cos_sim_tfidf": { "mean": 0.7905501497939522, "std": 0.37062824683849127 }
+  },
+  "AVISO_LICITACAO": {
+    "edit_distance": { "mean": 28.58915616647579, "std": 169.4732226500112 },
+    "jaccard_index": { "mean": 0.9743421670378708, "std": 0.14216927455523717 },
+    "cos_sim_tfidf": { "mean": 0.9777565246804317, "std": 0.14194862274736436 }
+  },
+  "modalidade_licitacao": {
+    "edit_distance": { "mean": 1.5622088353413661, "std": 4.43221596503055 },
+    "jaccard_index": { "mean": 0.8950966378142254, "std": 0.28509627699956214 },
+    "cos_sim_tfidf": { "mean": 0.8933777733094039, "std": 0.2872172294755345 }
+  },
+  "numero_licitacao": {
+    "edit_distance": { "mean": 2.6195695307108324, "std": 51.01720586554318 },
+    "jaccard_index": { "mean": 0.8967248498951398, "std": 0.2514939760845735 },
+    "cos_sim_tfidf": { "mean": 0.8961998907389157, "std": 0.2516796461138646 }
+  },
+  "objeto_licitacao": {
+    "edit_distance": { "mean": 30.682439537329103, "std": 90.33542786780637 },
+    "jaccard_index": { "mean": 0.8688368256925386, "std": 0.3073232279924792 },
+    "cos_sim_tfidf": { "mean": 0.8913969005226468, "std": 0.3022272268529589 }
+  },
+  "tipo_objeto": {
+    "edit_distance": { "mean": 4.0077892325315005, "std": 6.184483855781651 },
+    "jaccard_index": { "mean": 0.6857915803631838, "std": 0.4528153910176842 },
+    "cos_sim_tfidf": { "mean": 0.6831932844037021, "std": 0.4540439049055529 }
+  },
+  "orgao_licitante": {
+    "edit_distance": { "mean": 6.243084779131295, "std": 17.285777896327296 },
+    "jaccard_index": { "mean": 0.7478087306440349, "std": 0.41695367742270384 },
+    "cos_sim_tfidf": { "mean": 0.7491299347520595, "std": 0.41588456779183847 }
+  },
+  "valor_estimado_contratacao": {
+    "edit_distance": { "mean": 0.41607142857142854, "std": 1.9682246761613285 },
+    "jaccard_index": { "mean": 0.9584706959706959, "std": 0.19456183154340245 },
+    "cos_sim_tfidf": { "mean": 0.9607142857142857, "std": 0.1942738966994164 }
+  },
+  "data_abertura_licitacao": {
+    "edit_distance": { "mean": 0.8443271767810027, "std": 3.193750206018564 },
+    "jaccard_index": { "mean": 0.9314811374803044, "std": 0.24763651282833818 },
+    "cos_sim_tfidf": { "mean": 0.9320030591094837, "std": 0.2464142558867413 }
+  },
+  "data_escrito": {
+    "edit_distance": { "mean": 1.4195833333333334, "std": 4.269061760908632 },
+    "jaccard_index": { "mean": 0.8945231331168831, "std": 0.3005227822167634 },
+    "cos_sim_tfidf": { "mean": 0.8967347717600881, "std": 0.29996979400825846 }
+  },
+  "sistema_compras": {
+    "edit_distance": { "mean": 2.020703703703704, "std": 7.465517421384652 },
+    "jaccard_index": { "mean": 0.9253151779803592, "std": 0.25586568686359734 },
+    "cos_sim_tfidf": { "mean": 0.9264016796979204, "std": 0.25444296149471096 }
+  },
+  "codigo_licitacao_sistema_compras": {
+    "edit_distance": { "mean": 0.48866027589431854, "std": 1.9567334228587474 },
+    "jaccard_index": { "mean": 0.9416381490849575, "std": 0.19373092660992913 },
+    "cos_sim_tfidf": { "mean": 0.9425508002741376, "std": 0.1930126566024192 }
+  },
+  "nome_responsavel": {
+    "edit_distance": { "mean": 1.1087066779374468, "std": 4.698563284372661 },
+    "jaccard_index": { "mean": 0.9505287059855179, "std": 0.20090081456729114 },
+    "cos_sim_tfidf": { "mean": 0.9497980788252106, "std": 0.20110840812729577 }
+  },
+  "AVISO_SUSPENSAO_LICITACAO": {
+    "edit_distance": { "mean": 27.261904761904763, "std": 203.9256469920688 },
+    "jaccard_index": { "mean": 0.9751856705985147, "std": 0.15243417433613485 },
+    "cos_sim_tfidf": { "mean": 0.9759574682918443, "std": 0.15242624698909563 }
+  },
+  "EXTRATO_ADITAMENTO_CONTRATUAL": {
+    "edit_distance": { "mean": 65.15079626578803, "std": 292.833193093768 },
+    "jaccard_index": { "mean": 0.9333281867540866, "std": 0.2419133495942704 },
+    "cos_sim_tfidf": { "mean": 0.9413650343855714, "std": 0.23294120523077017 }
+  },
+  "numero_termo_aditivo": {
+    "edit_distance": { "mean": 1.4357749469214436, "std": 4.893445041190158 },
+    "jaccard_index": { "mean": 0.9269202196094292, "std": 0.24852429108735757 },
+    "cos_sim_tfidf": { "mean": 0.9290422546280203, "std": 0.246320352388885 }
+  },
+  "objeto_aditamento_contratual": {
+    "edit_distance": { "mean": 97.05242024202417, "std": 265.9196357018888 },
+    "jaccard_index": { "mean": 0.7772386060805474, "std": 0.4115406713671114 },
+    "cos_sim_tfidf": { "mean": 0.7793756104225492, "std": 0.4120705969379347 }
+  },
+  "AVISO_ANUL_REV_LICITACAO": {
+    "edit_distance": { "mean": 33.93333333333333, "std": 165.47405301805546 },
+    "jaccard_index": { "mean": 0.9628097809188425, "std": 0.1790584966929601 },
+    "cos_sim_tfidf": { "mean": 0.965493622740635, "std": 0.17931330578238586 }
+  },
+  "identificacao_ocorrencia": {
+    "edit_distance": { "mean": 2.3636363636363638, "std": 4.625622998436085 },
+    "jaccard_index": { "mean": 0.8167388167388168, "std": 0.3313943216204571 },
+    "cos_sim_tfidf": { "mean": 0.821803116131977, "std": 0.3244447103727159 }
+  },
+  "decisao_tcdf": {
+    "edit_distance": { "mean": 23.0, "std": 36.670175270728734 },
+    "jaccard_index": {
+      "mean": 0.23905817174515237,
+      "std": 0.25754814437680523
+    },
+    "cos_sim_tfidf": { "mean": 0.39709358569246467, "std": 0.4187073190824244 }
+  },
+  "cnpj_orgao_contratante": {
+    "edit_distance": { "mean": 2.27887323943662, "std": 7.113682818164789 },
+    "jaccard_index": { "mean": 0.8929577464788733, "std": 0.3036509966920984 },
+    "cos_sim_tfidf": { "mean": 0.8929577464788733, "std": 0.3036509966920984 }
+  },
+  "codigo_siggo": {
+    "edit_distance": { "mean": 0.7385342789598109, "std": 1.6712479998128746 },
+    "jaccard_index": { "mean": 0.780614657210402, "std": 0.38082809750359536 },
+    "cos_sim_tfidf": { "mean": 0.780614657210402, "std": 0.38082809750359536 }
+  },
+  "EXTRATO_CONVENIO": {
+    "edit_distance": { "mean": 646.6666666666666, "std": 590.5995070923932 },
+    "jaccard_index": { "mean": 0.3330767256864255, "std": 0.4710417276199714 },
+    "cos_sim_tfidf": { "mean": 0.3333333333333333, "std": 0.4714045207910317 }
+  },
+  "entidade_convenente": {
+    "edit_distance": { "mean": 20.8, "std": 17.97665152357357 },
+    "jaccard_index": { "mean": 0.2, "std": 0.4000000000000001 },
+    "cos_sim_tfidf": { "mean": 0.2, "std": 0.4000000000000001 }
+  },
+  "cnpj_entidade_convenente": {
+    "edit_distance": { "mean": 13.5, "std": 7.794228634059948 },
+    "jaccard_index": { "mean": 0.25, "std": 0.4330127018922193 },
+    "cos_sim_tfidf": { "mean": 0.25000000000000006, "std": 0.4330127018922194 }
+  },
+  "orgao_concedente": {
+    "edit_distance": { "mean": 34.285714285714285, "std": 11.119022127022882 },
+    "jaccard_index": { "mean": 0.0, "std": 0.0 },
+    "cos_sim_tfidf": { "mean": 0.0, "std": 0.0 }
+  },
+  "cnpj_orgao_concedente": {
+    "edit_distance": { "mean": 18.0, "std": 0.0 },
+    "jaccard_index": { "mean": 0.0, "std": 0.0 },
+    "cos_sim_tfidf": { "mean": 0.0, "std": 0.0 }
+  },
+  "objeto_convenio": {
+    "edit_distance": { "mean": 110.72727272727273, "std": 179.1749226107325 },
+    "jaccard_index": { "mean": 0.5430568346452334, "std": 0.49574627907812474 },
+    "cos_sim_tfidf": { "mean": 0.5454545454545454, "std": 0.4979295977319692 }
+  },
+  "vigencia_convenio": {
+    "edit_distance": { "mean": 25.444444444444443, "std": 23.01743837041391 },
+    "jaccard_index": { "mean": 0.4188034188034188, "std": 0.4698134411046774 },
+    "cos_sim_tfidf": { "mean": 0.4409699195007164, "std": 0.4930469045726285 }
+  },
+  "valor_convenio": {
+    "edit_distance": { "mean": 4.0, "std": 5.656854249492381 },
+    "jaccard_index": { "mean": 0.6666666666666666, "std": 0.4714045207910317 },
+    "cos_sim_tfidf": { "mean": 0.6666666666666666, "std": 0.4714045207910317 }
+  },
+  "data_assinatura_convenio": {
+    "edit_distance": { "mean": 9.875, "std": 10.647035972513665 },
+    "jaccard_index": { "mean": 0.5, "std": 0.5 },
+    "cos_sim_tfidf": { "mean": 0.5, "std": 0.5 }
+  },
+  "numero_convenio": {
+    "edit_distance": { "mean": 6.777777777777778, "std": 4.939135726865082 },
+    "jaccard_index": { "mean": 0.2222222222222222, "std": 0.41573970964154905 },
+    "cos_sim_tfidf": { "mean": 0.2222222222222222, "std": 0.41573970964154905 }
+  }
+}
